@@ -27,15 +27,15 @@ export default function Cardetails() {
                  
                <div className="car-details">
                   <div className="engine">
-                    <img src="../img/engine.png" alt="" className='engine' />
+                    <img src="./img/engine.png" alt="" className='engine' />
                     <p><strong>Engine:</strong> {carItem.Engine}</p>
                   </div>
                   <div className="engine">
-                    <img src="../img/power.png" alt="" className='hp' />
+                    <img src="./img/power.png" alt="" className='hp' />
                     <p><strong>Horsepower:</strong> <CountUp enableScrollSpy duration={2} end={carItem.Hp} /></p>
                   </div>
                   <div className="engine">
-                    <img src="../img/doller.png" alt="" className='price' />
+                    <img src="./img/doller.png" alt="" className='price' />
                     <p>
                       <strong>Price:</strong>{' '}
                       <CountUp enableScrollSpy duration={2} end={carItem.price} />
