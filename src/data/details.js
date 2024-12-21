@@ -1,6 +1,6 @@
 
 export const car2 = [
-    { id: 1, name: "RollsRoyce", img: "https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg", Engine: "V12", Hp: "430", price: "450000", link: "https://rolls-roycemotorcars.com", logo: "/img/Rolls-Royce.png" },
+    { id: 1, name: "RollsRoyce", img: "https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg", Engine: "V12", Hp: "430", price: "450000", link: "https://rolls-roycemotorcars.com", logo: "../img/Rolls-Royce.png" },
     { id: 2, name: "BMW", img: "https://www.bmw-deutschemotoren-bengaluru.in/sites/default/files/2023-09/2gc-500-542_1.png", Engine: "V8", Hp: "617", price: "85000", link: "https://bmw.com", logo: "/img/BMW.png" },
     { id: 3, name: "Jaguar", img: "https://www.cnet.com/a/img/resize/8937183453b0c71b5aa3f1be336774979086ae17/hub/2024/12/03/217ce5c4-056b-4851-a79e-721d1bd80672/jaguar-type00-front3-4-021224.jpg?auto=webp&fit=crop&height=675&width=1200", Engine: "V8", Hp: "444", price: "70000", link: "https://jaguar.com", logo: "/img/jaguar.png" },
     { id: 4, name: "Dodge", img: "https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/10/srt.jpg", Engine: "V8", Hp: "375", price: "50000", link: "https://dodge.com", logo: "/img/Dodge.png" },
