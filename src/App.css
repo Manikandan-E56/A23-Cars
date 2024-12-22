@@ -247,12 +247,90 @@ a:hover {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
-  .car-grid {
-    grid-template-columns: 1fr; /* Single-column layout on small screens */
+@media screen and (max-width: 320px) {
+  /* Container adjustments */
+  .container {
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+
+  /* Car Card adjustments */
+  .car-b {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+
+  .car {
+    margin: 10px; /* Reduce margin to fit better on small screens */
+    height: auto; /* Allow height to adjust dynamically */
   }
 
   .car-card {
-    margin: 0 auto;
+    width: 100%; /* Ensure the card takes full width */
+    padding: 5px; /* Adjust padding */
+  }
+
+  /* Image adjustments */
+  .car-logo img {
+    width: 80px; /* Make the logo smaller */
+    height: auto;
+  }
+
+  .car-img {
+    margin: 2px; /* Reduce margin */
+  }
+
+  .car-image {
+    height: 250px; /* Adjust image height */
+    object-fit: cover; /* Ensure images cover properly */
+  }
+
+  .car-img :hover {
+    transform: translateY(5px); /* Keep hover effects */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    border: 2px #ffd00195 solid;
+  }
+
+  /* Typography adjustments */
+  .car-name h2 {
+    font-size: 1.2rem; /* Smaller font size */
+    margin: 10px 5px; /* Reduce margin */
+    padding: 2px;
+  }
+
+  .car-name h2:hover {
+    transform: translateX(-3px);
+    box-shadow: 0 6px 10px #ffd500;
+  }
+
+  .car-details {
+    flex-direction: column; /* Stack the details vertically */
+    align-items: flex-start; /* Align text to the left */
+  }
+
+  .car-details p {
+    font-size: 0.8rem; /* Reduce font size */
+  }
+
+  .car-details strong {
+    font-size: 0.9rem; /* Adjust strong text size */
+  }
+
+  .car-details .engine img,
+  .car-details .hp img,
+  .car-details .price img {
+    width: 60px; /* Make icons smaller */
+    height: 60px;
+  }
+
+  /* Link styles */
+  a {
+    font-size: 0.9rem; /* Smaller text size */
+    padding: 5px;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    transition-property: opacity 1, left 10%, top 4px, height 20px;
+    transition-duration: 1s;
   }
 }
+
